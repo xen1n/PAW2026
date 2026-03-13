@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\PAW2026\Seminar_4\Sem3PAW_1045_WF\bin\Debug\Sem3PAW_1045_WF.exe.config
+C:\Users\Administrator\source\repos\PAW2026\Seminar_4\Sem3PAW_1045_WF\bin\Debug\Sem3PAW_1045_WF.exe
+C:\Users\Administrator\source\repos\PAW2026\Seminar_4\Sem3PAW_1045_WF\bin\Debug\Sem3PAW_1045_WF.pdb
+C:\Users\Administrator\source\repos\PAW2026\Seminar_4\Sem3PAW_1045_WF\obj\Debug\Sem3PAW_1045_WF.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\PAW2026\Seminar_4\Sem3PAW_1045_WF\obj\Debug\Sem3PAW_1045_WF.Form1.resources
+C:\Users\Administrator\source\repos\PAW2026\Seminar_4\Sem3PAW_1045_WF\obj\Debug\Sem3PAW_1045_WF.Properties.Resources.resources
+C:\Users\Administrator\source\repos\PAW2026\Seminar_4\Sem3PAW_1045_WF\obj\Debug\Sem3PAW_1045_WF.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\PAW2026\Seminar_4\Sem3PAW_1045_WF\obj\Debug\Sem3PAW_1045_WF.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\PAW2026\Seminar_4\Sem3PAW_1045_WF\obj\Debug\Sem3PAW_1045_WF.exe
+C:\Users\Administrator\source\repos\PAW2026\Seminar_4\Sem3PAW_1045_WF\obj\Debug\Sem3PAW_1045_WF.pdb
+C:\Users\Administrator\source\repos\PAW2026\Seminar_4\Sem3PAW_1045_WF\obj\Debug\Sem3PAW_1045_WF.Form2.resources
