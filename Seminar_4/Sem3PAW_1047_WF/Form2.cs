@@ -24,6 +24,13 @@ namespace Sem3PAW_1047_WF
             lista2 = lista;
             foreach (Student s in lista)
                 textBox1.Text += s.ToString() + Environment.NewLine;
+
+            listBox1.Items.Add("rosu");
+            listBox1.Items.Add("galben");
+            listBox1.Items.Add("albastru");
+
+            foreach (Student s in lista)
+                listBox1.Items.Add(s.ToString());
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -80,5 +80,29 @@ namespace Sem3PAW_1047_WF
             Form2 frm = new Form2(listaStud);
             frm.Show();
         }
+
+        private void tbCod_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            /*if (e.KeyChar >= '0' && e.KeyChar <= '9'
+                || e.KeyChar == (char)8)
+                e.Handled = false;
+            else
+                e.Handled = true;*/
+            if (!char.IsDigit(e.KeyChar)
+                && !char.IsControl(e.KeyChar))
+                e.Handled = true;
+            else
+                e.Handled = false;
+        }
+
+        private void tbNote_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= '0' && e.KeyChar <= '9'
+                || e.KeyChar == (char)8
+                || e.KeyChar==',')
+                e.Handled = false;
+            else
+                e.Handled = true;
+        }
     }
 }

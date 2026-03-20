@@ -37,11 +37,12 @@ namespace Sem3PAW_1047_WF
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.button1 = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.stergeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.serializareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deserializareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,6 +97,37 @@ namespace Sem3PAW_1047_WF
             this.columnHeader5.Text = "Note";
             this.columnHeader5.Width = 94;
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.stergeToolStripMenuItem,
+            this.serializareToolStripMenuItem,
+            this.deserializareToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(165, 76);
+            // 
+            // stergeToolStripMenuItem
+            // 
+            this.stergeToolStripMenuItem.Name = "stergeToolStripMenuItem";
+            this.stergeToolStripMenuItem.Size = new System.Drawing.Size(164, 24);
+            this.stergeToolStripMenuItem.Text = "Sterge";
+            this.stergeToolStripMenuItem.Click += new System.EventHandler(this.stergeToolStripMenuItem_Click);
+            // 
+            // serializareToolStripMenuItem
+            // 
+            this.serializareToolStripMenuItem.Name = "serializareToolStripMenuItem";
+            this.serializareToolStripMenuItem.Size = new System.Drawing.Size(164, 24);
+            this.serializareToolStripMenuItem.Text = "Serializare";
+            this.serializareToolStripMenuItem.Click += new System.EventHandler(this.serializareToolStripMenuItem_Click);
+            // 
+            // deserializareToolStripMenuItem
+            // 
+            this.deserializareToolStripMenuItem.Name = "deserializareToolStripMenuItem";
+            this.deserializareToolStripMenuItem.Size = new System.Drawing.Size(164, 24);
+            this.deserializareToolStripMenuItem.Text = "&Deserializare";
+            this.deserializareToolStripMenuItem.Click += new System.EventHandler(this.deserializareToolStripMenuItem_Click);
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(476, 288);
@@ -106,42 +138,21 @@ namespace Sem3PAW_1047_WF
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // contextMenuStrip1
+            // listBox1
             // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.stergeToolStripMenuItem,
-            this.serializareToolStripMenuItem,
-            this.deserializareToolStripMenuItem});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 104);
-            // 
-            // stergeToolStripMenuItem
-            // 
-            this.stergeToolStripMenuItem.Name = "stergeToolStripMenuItem";
-            this.stergeToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
-            this.stergeToolStripMenuItem.Text = "Sterge";
-            this.stergeToolStripMenuItem.Click += new System.EventHandler(this.stergeToolStripMenuItem_Click);
-            // 
-            // serializareToolStripMenuItem
-            // 
-            this.serializareToolStripMenuItem.Name = "serializareToolStripMenuItem";
-            this.serializareToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
-            this.serializareToolStripMenuItem.Text = "Serializare";
-            this.serializareToolStripMenuItem.Click += new System.EventHandler(this.serializareToolStripMenuItem_Click);
-            // 
-            // deserializareToolStripMenuItem
-            // 
-            this.deserializareToolStripMenuItem.Name = "deserializareToolStripMenuItem";
-            this.deserializareToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
-            this.deserializareToolStripMenuItem.Text = "&Deserializare";
-            this.deserializareToolStripMenuItem.Click += new System.EventHandler(this.deserializareToolStripMenuItem_Click);
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(12, 256);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(338, 164);
+            this.listBox1.TabIndex = 3;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(855, 450);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.textBox1);
@@ -167,5 +178,6 @@ namespace Sem3PAW_1047_WF
         private System.Windows.Forms.ToolStripMenuItem stergeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem serializareToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deserializareToolStripMenuItem;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

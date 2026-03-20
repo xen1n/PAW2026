@@ -66,6 +66,7 @@ namespace Sem3PAW_1045_WF
             this.tbCod.Name = "tbCod";
             this.tbCod.Size = new System.Drawing.Size(112, 28);
             this.tbCod.TabIndex = 1;
+            this.tbCod.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbCod_KeyPress);
             // 
             // label2
             // 
@@ -96,6 +97,7 @@ namespace Sem3PAW_1045_WF
             this.tbVarsta.Name = "tbVarsta";
             this.tbVarsta.Size = new System.Drawing.Size(112, 28);
             this.tbVarsta.TabIndex = 5;
+            this.tbVarsta.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbCod_KeyPress);
             // 
             // label3
             // 
@@ -130,6 +132,7 @@ namespace Sem3PAW_1045_WF
             this.tbNote.Name = "tbNote";
             this.tbNote.Size = new System.Drawing.Size(112, 28);
             this.tbNote.TabIndex = 9;
+            this.tbNote.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbNote_KeyPress);
             // 
             // label5
             // 
